@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 const url = "/api/v1/greetings";
 
 const initialState = {
-    greetings: '',
+    greetings: [],
     isLoading: true,
     error: undefined,
 };
@@ -33,5 +33,4 @@ const greetingsSlice = createSlice({
     }
 });
 
-e
 export default greetingsSlice.reducer;

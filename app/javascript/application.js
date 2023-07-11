@@ -8,9 +8,10 @@ import store from './redux/store';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from "./components/Header";
 import Greetings from "./components/Greetings";
+import '../assets/stylesheets/application.css';
 
 function Home() {
-    return <h1>Home</h1>;
+    return <h1 class="title">Welcome, Micronaut!!</h1>;
 }
 
 function App() {
